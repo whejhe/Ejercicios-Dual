@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<appender>
+		<file>${user.home}/logback.log</file>
+		<rollingPolicy>
+			<fileNamePattern>${user.home}/logback.log.%d{yy-MM-dd}.%i.log.gz</fileNamePattern>
+			<maxFileSize>10MB</maxFileSize>
+		</rollingPolicy>
+		<encoder>
+			<pattern></pattern>
+		</encoder>
+	</appender>
+</configuration>
